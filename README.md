@@ -6,8 +6,8 @@
   - download images by `python get_images.py` in `data` folder
 2. create vocab, run `python create_vocab.py` in `data` folder
 3. download w2v ([example](https://github.com/mmihaltz/word2vec-GoogleNews-vectors)) and move it to `data` folder
-4. create mini w2v, run `python create_miniw2v.py` in `data` folder
-5. download pretrained vgg16 ([link](https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth))
+4. create mini w2v, run `python create_miniw2v.py` in `data` folder and move it to `weights` one
+5. download pretrained vgg16 ([link](https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth)) and move it to `weights` folder
 6. train the model, run `PYTHONPATH=. python baseline/train.py --logdir=./test_baseline_mem`
 7. make predictions, run 
 ```
