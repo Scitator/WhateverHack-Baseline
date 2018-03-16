@@ -1,7 +1,7 @@
 import pandas as pd
 from collections import defaultdict
 
-DATA = "./user_cases.csv"
+DATA = "./train_data.csv"
 FILE_OUT = "./vocab.txt"
 df = pd.read_csv(DATA, names=["image_name", "text", "label"])
 
