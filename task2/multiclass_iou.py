@@ -3,7 +3,15 @@ from shapely.geometry import Polygon, MultiPolygon
 
 classes = ["armchair", "lamp", "chair", "wardrobe", "desk",
            "couch", "shelf", "bed", "dining_table"]
-class_weights = {cl: 1 for cl in classes}
+class_weights = {'armchair': 0.079456544379896146,
+ 'bed': 0.028866859166950479,
+ 'chair': 0.13942879882330855,
+ 'couch': 0.038575104688560381,
+ 'desk': 0.083724911259357243,
+ 'dining_table': 0.059900300391638142,
+ 'lamp': 0.33833361193911593,
+ 'shelf': 0.20583138380315716,
+ 'wardrobe': 0.025882485548015925}
 top_level_key = "aabb"
 
 
